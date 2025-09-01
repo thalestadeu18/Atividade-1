@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend><h1>Cadastro de Cliente</h1></legend>
+            <p>
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" required>
+            </p>
+            <p>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required>
+            </p>
+            <p>
+                <label for="senha">Senha:</label>
+                <input type="password" name="senha" id="senha" required>
+            </p>
+            <p>
+                <button type="submit">Cadastrar</button>
+            </p>
+        </fieldset>
+    </form>
+    
+    <!-- lista ordenada de suplementos -->
+    <fieldset><legend><h1>suplementos</h1></legend>
+        <form>
+            <div style="display: flex; gap: 120px;">
+                <ol>
+                    <li>
+                        <label for="">Whey</label>
+                        <input type="number" name="qtd_whey" min="0" max="99" value="0" style="width:50px;">
+                    </li>
+                    <li>
+                        <label for="">Creatina</label>
+                        <input type="number" name="qtd_creatina" min="0" max="99" value="0" style="width:50px;">
+                    </li>
+                    <li>
+                        <label for="">BCAA</label>
+                        <input type="number" name="qtd_bcaa" min="0" max="99" value="0" style="width:50px;">
+                    </li>
+                    <li>
+                        <label for="">Glutamina</label>
+                        <input type="number" name="qtd_glutamina" min="0" max="99" value="0" style="width:50px;">
+                    </li>
+                    <li>
+                        <label for="">Multivitamínico</label>
+                        <input type="number" name="qtd_multivitaminico" min="0" max="99" value="0" style="width:50px;">
+                    </li>
+                    <li>
+                        <label for="">Ômega 3</label>
+                        <input type="number" name="qtd_omega3" min="0" max="99" value="0" style="width:50px;">
+                    </li>
+                    <li>
+                        <label for="">ZMA</label>
+                        <input type="number" name="qtd_zma" min="0" max="99" value="0" style="width:50px;">
+                    </li>
+                    <li>
+                        <label for="">Cafeína</label>
+                        <input type="number" name="qtd_cafeina" min="0" max="99" value="0" style="width:50px;">
+                    </li>
+                    <li>
+                        <label for="">Albumina</label>
+                        <input type="number" name="qtd_albumina" min="0" max="99" value="0" style="width:50px;">
+                    </li>
+                    <li>
+                        <label for="">Caseína</label>
+                        <input type="number" name="qtd_caseina" min="0" max="99" value="0" style="width:50px;">
+                    </li>
+                </ol>
+                <ol start="11">
+                    <li>
+                        <label for="">Dextrose</label>
+                        <input type="number" name="qtd_dextrose" min="0" max="99" value="0" style="width:50px;">
+                    </li>
+                    <li>
+                        <label for="">Maltodextrina</label>
+                        <input type="number" name="qtd_maltodextrina" min="0" max="99" value="0" style="width:50px;">
+                    </li>
+                    <li>
+                        <label for="">Arginina</label>
+                        <input type="number" name="qtd_arginina" min="0" max="99" value="0" style="width:50px;">
+                    </li>
+                    <li>
+                        <label for="">Beta-Alanina</label>
+                        <input type="number" name="qtd_beta_alanina" min="0" max="99" value="0" style="width:50px;">
+                    </li>
+                    <li>
+                        <label for="">HMB</label>
+                        <input type="number" name="qtd_hmb" min="0" max="99" value="0" style="width:50px;">
+                    </li>
+                    <li>
+                        <label for="">L-Carnitina</label>
+                        <input type="number" name="qtd_l_carnitina" min="0" max="99" value="0" style="width:50px;">
+                    </li>
+                    <li>
+                        <label for="">Vitamina D</label>
+                        <input type="number" name="qtd_vitamina_d" min="0" max="99" value="0" style="width:50px;">
+                    </li>
+                    <li>
+                        <label for="">Magnésio</label>
+                        <input type="number" name="qtd_magnesio" min="0" max="99" value="0" style="width:50px;">
+                    </li>
+                    <li>
+                        <label for="">Colágeno</label>
+                        <input type="number" name="qtd_colageno" min="0" max="99" value="0" style="width:50px;">
+                    </li>
+                    <li>
+                        <label for="">Vitamina C</label>
+                        <input type="number" name="qtd_vitamina_c" min="0" max="99" value="0" style="width:50px;">
+                    </li>
+                </ol>
+            </div>
+            <p style="text-align:center; margin-top:20px;">
+                <button type="submit">Confirmar Seleção</button>
+            </p>
+        </form>
+    </fieldset>
+</body>
+</html>
